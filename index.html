@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team 2 HTML Assignment</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <h1 class="navtitle">Team 2</h1>
+        <a href="https://usa.generation.org/">Generation USA</a>
+
+        <a href="https://www.codecademy.com" target="_blank">CodeCademy</a>
+
+        <a href="contact-form"> Contact Us</a>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="mainheader">Welcome to Team 2's Page!</h1>
+      <h2>About Us</h2>
+      <p>
+        We are 3 Students enrolled in the Generation USA Web Developer Program
+      </p>
+      <h3>Expected Graduation</h3>
+      <p>Spring 2022</p>
+    </main>
+
+    <figure>
+      <img
+        src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"
+      />
+      <figcaption>Cute Dog!!</figcaption>
+    </figure>
+    <!-- Table By Catherine -->
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">
+            <h1>Our Favorite Things</h1>
+          </th>
+        </tr>
+        <tr>
+          <th><h5>Programming Languages</h5></th>
+          <th><h6>Movies</h6></th>
+        </tr>
+      </thead>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+      </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+      </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+      </tr>
+    </table>
+
+    <!-- Form by Daniel -->
+
+    <form action="/info.html" action="POST">
+      <h1>Username & Password</h1>
+      <p>Choose a username and password for our new website!</p>
+      <label for="username">Username: </label>
+      <input type="text" name="username" value="" />
+      <br />
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password" value="" />
+      <br />
+      <br />
+      <label for="number">Choose a number between 1 and 10: </label>
+      <input id="number" type="number" step="1" name="amount" />
+      <br />
+      <br />
+      <label for="fluentLanguage"
+        >In what programming language would you like to be fluent?</label
+      >
+      <select id="fluentLanguage" name="fluentLanguage">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="SQL">SQL</option>
+        <option value="Python">Python</option>
+      </select>
+    </form>
+
+    <footer><p>Made By: Valentina | Daniel | Catherine</p></footer>
+    <style>
+      footer {
+        text-align: center;
+      }
+      .navtitle {
+        display: inline-block;
+      }
+      a {
+        padding: 20px;
+        float: right;
+      }
+      .mainheader {
+        text-align: center;
+      }
+      body {
+        padding: 20px;
+      }
+    </style>
+  </body>
+</html>
